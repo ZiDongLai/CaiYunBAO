@@ -1,0 +1,39 @@
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing / secrets
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+*.bak
+
+# Android release outputs
+app/release/
+*.apk
+*.aab
+*.apks
+*.dm
